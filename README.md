@@ -10,12 +10,13 @@ There are two instances of DragDropItemModel (which is a subclass of QStandardIt
 one for the left list view (the origin of drag-and-drop) and another one for the right 
 list view (the destination of the drag-and-drop operations).
 
-Each item on the left list view have two data roles (strings):
+Each item on the left list view has two data roles (strings):
 * Qt::DisplayRole (the displayed item)
 * Qt::UserRole (the data that is drag-and-dropped)
 
 That is why the strings displayed on the first list view are not the same as the the ones
-displayed ooon the right one.
+displayed on the right list view.
 
 Copyright (c) 2023, Pedro López-Cabanillas
+
 SPDX-License-Identifier: BSD-3-Clause
